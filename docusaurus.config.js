@@ -47,15 +47,10 @@ const config = {
       },
       items: [
         {
-          to: '/home',
-          label: 'Home',
-          position: 'left',
-        },
-        {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Documentation',
+          label: 'Structural Stress Test',
         },
       ],
     },

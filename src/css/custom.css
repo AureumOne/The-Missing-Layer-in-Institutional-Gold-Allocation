@@ -33,9 +33,18 @@ body {
   color: #2C3E50;
 }
 
+.navbar__logo img {
+  max-width: 70%;
+  height: auto;
+}
+
 .hero__title {
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 700;
+}
+
+h1 {
+  font-size: 2.75rem;
 }
 
 .hero__subtitle {

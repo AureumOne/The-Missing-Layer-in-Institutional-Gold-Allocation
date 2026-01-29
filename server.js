@@ -20,9 +20,9 @@ const mimeTypes = {
 };
 
 const server = http.createServer((req, res) => {
-  // Redirect entry points to the Docusaurus home route
+  // Redirect entry points to the docs/purpose route
   if (req.url === '/' || req.url === `${BASE_PATH}/`) {
-    res.writeHead(302, { Location: `${BASE_PATH}/home` });
+    res.writeHead(302, { Location: `${BASE_PATH}/docs/purpose` });
     res.end();
     return;
   }
