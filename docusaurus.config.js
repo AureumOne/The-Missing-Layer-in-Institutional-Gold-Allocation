@@ -74,6 +74,10 @@ const config = {
               to: '/docs/el-problema-institucional',
             },
             {
+              label: 'Restricciones de diseño',
+              to: '/docs/restricciones-de-diseno',
+            },
+            {
               label: 'Arquitectura en cuatro capas',
               to: '/docs/arquitectura-en-cuatro-capas',
             },
@@ -84,6 +88,18 @@ const config = {
             {
               label: 'Transparencia y verificabilidad',
               to: '/docs/transparencia-y-verificabilidad',
+            },
+            {
+              label: 'Límites explícitos',
+              to: '/docs/limites-explicitos',
+            },
+            {
+              label: 'Revisión externa',
+              to: '/docs/revision-externa',
+            },
+            {
+              label: 'Aclaraciones',
+              to: '/docs/aclaraciones',
             },
             {
               label: 'Cierre',

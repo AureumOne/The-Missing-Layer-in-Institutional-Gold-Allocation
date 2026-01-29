@@ -76,7 +76,7 @@ export default function Home() {
             
             <div style={{ marginTop: '3rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link
-                to="/docs/purpose"
+                to="/docs/que-es-esto"
                 style={{ 
                   backgroundColor: '#2C3E50',
                   color: 'white',
