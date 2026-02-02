@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmissing_layer=self.webpackChunkmissing_layer||[]).push([[634],{192(e,r,s){s.r(r),s.d(r,{default:()=>t});s(6540);var n=s(6347),a=s(4848);function t(){return(0,a.jsx)(n.rd,{to:"/reading-contract"})}}}]);
