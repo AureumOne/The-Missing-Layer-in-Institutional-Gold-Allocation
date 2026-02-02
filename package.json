@@ -1,5 +1,5 @@
 {
-  "name": "arquitectura-institucional-aureum",
+  "name": "missing-layer",
   "version": "1.0.0",
   "main": "server.js",
   "directories": {
@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AureumOne/arquitectura-institucional-aureum.git"
+    "url": "git+https://github.com/AureumOne/missing-layer.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AureumOne/arquitectura-institucional-aureum/issues"
+    "url": "https://github.com/AureumOne/missing-layer/issues"
   },
-  "homepage": "https://github.com/AureumOne/arquitectura-institucional-aureum#readme",
+  "homepage": "https://github.com/AureumOne/missing-layer#readme",
   "description": "",
   "dependencies": {
     "@docusaurus/core": "^3.9.2",

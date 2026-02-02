@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = 3000;
-const BASE_PATH = '/arquitectura-institucional-aureum-';
+const BASE_PATH = '/missing-layer';
 
 const mimeTypes = {
   '.html': 'text/html',
