@@ -22,22 +22,17 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       
-    - name: Setup Python
-      uses: actions/setup-python@v4
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        python-version: '3.x'
+        node-version: '18'
+        cache: 'npm'
         
     - name: Install dependencies
-      run: |
-        pip install mkdocs mkdocs-material
+      run: npm ci
         
     - name: Build documentation
-      run: mkdocs build
-      
-    - name: Copy auth files
-      run: |
-        cp docs/login.html site/login.html
-        cp docs/auth.js site/auth.js
+      run: npm run build
         
     - name: Setup Pages
       uses: actions/configure-pages@v3
@@ -45,7 +40,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
-        path: './site'
+        path: './build'
 
   deploy:
     environment:
