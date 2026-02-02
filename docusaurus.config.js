@@ -11,7 +11,7 @@ const config = {
   baseUrl: '/missing-layer/',
 
   organizationName: 'AureumOne',
-  projectName: 'missing-layer',
+  projectName: 'The-Missing-Layer-in-Institutional-Gold-Allocation',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
