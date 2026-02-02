@@ -8,10 +8,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://aureumone.github.io',
-  baseUrl: '/The-Missing-Layer-in-Institutional-Gold-Allocation/',
+  baseUrl: '/institucional-gap/',
 
   organizationName: 'AureumOne',
-  projectName: 'The-Missing-Layer-in-Institutional-Gold-Allocation',
+  projectName: 'institucional-gap',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
