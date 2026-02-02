@@ -1,0 +1,42 @@
+{
+  "link.title.Documentation": {
+    "message": "Documentación",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Contact": {
+    "message": "Contacto",
+    "description": "The title of the footer links column with title=Contact in the footer"
+  },
+  "link.item.label.Reading Contract": {
+    "message": "Contrato de Lectura",
+    "description": "The label of footer link with label=Reading Contract linking to /reading-contract"
+  },
+  "link.item.label.Gold Is Not the Problem": {
+    "message": "El Oro No Es el Problema",
+    "description": "The label of footer link with label=Gold Is Not the Problem linking to /gold-is-not-the-problem"
+  },
+  "link.item.label.Why Institutional Allocation Breaks Down": {
+    "message": "Por Qué Falla la Asignación Institucional",
+    "description": "The label of footer link with label=Why Institutional Allocation Breaks Down linking to /why-institutional-allocation-breaks-down"
+  },
+  "link.item.label.The Missing Layer": {
+    "message": "La Capa Faltante",
+    "description": "The label of footer link with label=The Missing Layer linking to /the-missing-layer"
+  },
+  "link.item.label.What Changes When the Layer Exists": {
+    "message": "Qué Cambia Cuando la Capa Existe",
+    "description": "The label of footer link with label=What Changes When the Layer Exists linking to /what-changes-when-the-layer-exists"
+  },
+  "link.item.label.Aureum's Role": {
+    "message": "El Rol de Aureum",
+    "description": "The label of footer link with label=Aureum's Role linking to /aureums-role"
+  },
+  "link.item.label.Closing": {
+    "message": "Cierre",
+    "description": "The label of footer link with label=Closing linking to /closing"
+  },
+  "copyright": {
+    "message": "© 2026 Aureum One. Confidential Documentation.",
+    "description": "The footer copyright"
+  }
+}

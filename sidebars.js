@@ -2,53 +2,38 @@ const sidebars = {
   docsSidebar: [
     {
       type: 'doc',
-      id: 'que-es-esto',
-      label: 'Qué es esto y qué no es',
+      id: 'reading-contract',
+      label: 'Reading Contract',
     },
     {
       type: 'doc',
-      id: 'el-problema-institucional',
-      label: 'El problema institucional',
+      id: 'gold-is-not-the-problem',
+      label: 'Gold Is Not the Problem',
     },
     {
       type: 'doc',
-      id: 'restricciones-de-diseno',
-      label: 'Restricciones de diseño',
+      id: 'why-institutional-allocation-breaks-down',
+      label: 'Why Institutional Allocation Breaks Down',
     },
     {
       type: 'doc',
-      id: 'arquitectura-en-cuatro-capas',
-      label: 'Arquitectura en cuatro capas',
+      id: 'the-missing-layer',
+      label: 'The Missing Layer',
     },
     {
       type: 'doc',
-      id: 'gobernanza-sin-opinion',
-      label: 'Gobernanza sin opinión',
+      id: 'what-changes-when-the-layer-exists',
+      label: 'What Changes When the Layer Exists',
     },
     {
       type: 'doc',
-      id: 'transparencia-y-verificabilidad',
-      label: 'Transparencia y verificabilidad',
+      id: 'aureums-role',
+      label: "Aureum's Role (Deliberately Narrow)",
     },
     {
       type: 'doc',
-      id: 'limites-explicitos',
-      label: 'Límites explícitos',
-    },
-    {
-      type: 'doc',
-      id: 'revision-externa',
-      label: 'Revisión externa',
-    },
-    {
-      type: 'doc',
-      id: 'aclaraciones',
-      label: 'Aclaraciones',
-    },
-    {
-      type: 'doc',
-      id: 'cierre',
-      label: 'Cierre',
+      id: 'closing',
+      label: 'Closing — Naming the Thing',
     },
   ],
 };

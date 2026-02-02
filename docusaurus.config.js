@@ -3,22 +3,30 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Aureum One — Structural Stress Test',
-  tagline: 'Adversarial review for failure, governance and evidence integrity',
+  title: 'The Missing Layer in Institutional Gold Allocation',
+  tagline: 'Documentation',
   favicon: 'img/favicon.ico',
 
-  url: 'https://aureum-one.github.io',
-  baseUrl: '/arquitectura-institucional-aureum-/',
+  url: 'https://aureumone.github.io',
+  baseUrl: '/The-Missing-Layer-in-Institutional-Gold-Allocation/',
 
   organizationName: 'AureumOne',
-  projectName: 'arquitectura-institucional-aureum-',
+  projectName: 'The-Missing-Layer-in-Institutional-Gold-Allocation',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'es'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      es: {
+        label: 'Español',
+      },
+    },
   },
 
   presets: [
@@ -27,7 +35,7 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: 'docs',
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
@@ -47,15 +55,14 @@ const config = {
       },
       items: [
         {
-          to: '/',
-          label: 'Home',
-          position: 'left',
-        },
-        {
           type: 'docSidebar',
           sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Arquitectura Institucional Aureum',
+          label: 'Documentation',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
       ],
     },
@@ -63,47 +70,35 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentación',
+          title: 'Documentation',
           items: [
             {
-              label: 'Qué es esto',
-              to: '/docs/que-es-esto',
+              label: 'Reading Contract',
+              to: '/reading-contract',
             },
             {
-              label: 'El problema institucional',
-              to: '/docs/el-problema-institucional',
+              label: 'Gold Is Not the Problem',
+              to: '/gold-is-not-the-problem',
             },
             {
-              label: 'Restricciones de diseño',
-              to: '/docs/restricciones-de-diseno',
+              label: 'Why Institutional Allocation Breaks Down',
+              to: '/why-institutional-allocation-breaks-down',
             },
             {
-              label: 'Arquitectura en cuatro capas',
-              to: '/docs/arquitectura-en-cuatro-capas',
+              label: 'The Missing Layer',
+              to: '/the-missing-layer',
             },
             {
-              label: 'Gobernanza sin opinión',
-              to: '/docs/gobernanza-sin-opinion',
+              label: 'What Changes When the Layer Exists',
+              to: '/what-changes-when-the-layer-exists',
             },
             {
-              label: 'Transparencia y verificabilidad',
-              to: '/docs/transparencia-y-verificabilidad',
+              label: "Aureum's Role",
+              to: '/aureums-role',
             },
             {
-              label: 'Límites explícitos',
-              to: '/docs/limites-explicitos',
-            },
-            {
-              label: 'Revisión externa',
-              to: '/docs/revision-externa',
-            },
-            {
-              label: 'Aclaraciones',
-              to: '/docs/aclaraciones',
-            },
-            {
-              label: 'Cierre',
-              to: '/docs/cierre',
+              label: 'Closing',
+              to: '/closing',
             },
           ],
         },
